@@ -1,6 +1,6 @@
 {
   "name": "protobufjs",
-  "version": "6.8.8",
+  "version": "6.8.8-eagle.1",
   "versionScheme": "~",
   "description": "Protocol Buffers for JavaScript (& TypeScript).",
   "author": "Daniel Wirtz <dcode+protobufjs@dcode.io>",
@@ -118,5 +118,8 @@
     "ext/**",
     "google/**",
     "src/**"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory6.grabcad.net/artifactory/api/npm/npm-local/"
+  }
 }
